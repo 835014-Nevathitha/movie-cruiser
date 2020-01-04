@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Favorites notification</title>
+<link rel="icon" href="images\logo.png" />
+<link rel="stylesheet" type="text/css" href="styles\style.css" />
+</head>
+<body>
+    <header>
+        Movie Cruiser <img src="images\logo.png" height="40" width="40">
+    </header>
+    <nav>
+        <a href="movie-list-customer.html">Movies</a> <a id="favorites" href="favorites.html">Favorites</a>
+    </nav>
+
+    <p id="remove-from-fav">
+        <b>Movie removed from Favorites successfully</b>
+    </p>
+    <p id="fav-heading">Favorites</p>
+    <table id="fav-notification-table">
+        <col width="200px" />
+        <col width="180px" />
+        <col width="190px" />
+        <tr>
+            <th align="left">Title</th>
+            <th align="right">Box Office</th>
+            <th align="center">Genre</th>
+        </tr>
+        <tr>
+            <td>Avatar</td>
+            <td align="right">$2,787,965,087</td>
+            <td align="center">Science Fiction</td>
+            <td align="center"><a href="favorites-notification.html" id="delete">Delete</a></td>
+        </tr>
+        <tr>
+            <td>The Avengers</td>
+            <td align="right">$1,518,812,988</td>
+            <td align="center">Superhero</td>
+            <td align="center"><a href="favorites-notification.html" id="delete">Delete</a></td>
+        </tr>
+        <tr id="no-of-fav">
+            <td><b>No.of Favorites:</b> 2</td>
+        </tr>
+    </table>
+    <footer>
+        <p class="copyrights">Copyright &copy; 2019</p>
+    </footer>
+</body>
+</html>

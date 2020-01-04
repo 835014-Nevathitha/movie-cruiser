@@ -1,0 +1,233 @@
+/*For Admin header page*/
+header {
+    font-size: 250%;
+    font-family: sans-serif;
+    color: #ffffff;
+    background-color: #115491;
+    top: 0%;
+    padding: 4px;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    text-indent: 1%;
+    border: 0px;
+}
+/*For Admin page movie navigation*/
+nav a {
+    text-align: right;
+    font-size: 140%;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1%;
+    margin-left: 88%;
+    top: 1%;
+    color: #ffffff;
+    position: fixed;
+    padding: 4px;
+}
+/*For Customer page favorites navigation*/
+#favorites {
+    margin-left: 94%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*For Admin heading*/
+#admin-title {
+    font-size: 200%;
+    top: 12%;
+    font-family: sans-serif;
+    position: fixed;
+    left: 7%;
+}
+/*For title in edit page*/
+#edit-title {
+    font-size: 200%;
+    top: 10%;
+    font-family: sans-serif;
+    position: fixed;
+    left: 7%;
+}
+/*For heading in empty page*/
+#fav-heading {
+    top: 12%;
+    font-size: 170%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 7%;
+}
+/*For Admin image tag*/
+img {
+    margin-top: 0.1%;
+    margin-left: 1.5%;
+    position: fixed;
+}
+
+/*For paragraph in empty page*/
+#add-to-fav {
+    top: 21%;
+    font-size: 120%;
+    color: #4bc447;
+    font-family: "Times New Roman";
+    position: fixed;
+    left: 18%;
+}
+/*For paragraph in favorite notification page*/
+#remove-from-fav {
+    top: 17%;
+    font-size: 120%;
+    color: #4bc447;
+    font-family: "Times New Roman";
+    position: fixed;
+    left: 10%;
+}
+/*For link in empty page*/
+#movie-list-link {
+    color: #2789e6;
+}
+/*For add to favorites notification*/
+#add-fav {
+    font-size: 130%;
+    top: 19%;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    position: fixed;
+    color: #b0b0b0;
+    left: 7%;
+}
+/*For edit status in edit page*/
+#edit-status {
+    font-size: 210%;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 15%;
+    left: 7%;
+    position: fixed;
+}
+/*For save status in edit page*/
+#save-status {
+    top: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #41ba14;
+    left: 7%;
+    position: fixed;
+}
+/*For notification in favorite page*/
+#fav-notification-table {
+    width: 30%;
+    top: 26%;
+    position: fixed;
+    left: 7%;
+    line-height: 1.4;
+}
+/*For Admin page table*/
+#admin-table {
+    width: 65%;
+    top: 23%;
+    position: fixed;
+    left: 7%;
+    line-height: 1.4;
+}
+/*For Customer page table*/
+#customer-table {
+    width: 50%;
+    top: 23%;
+    position: fixed;
+    left: 7%;
+    line-height: 1.4;
+}
+/*For Customer page notification table*/
+#customer-table-notification {
+    width: 40%;
+    top: 30%;
+    position: fixed;
+    left: 7%;
+    line-height: 1.4;
+}
+/*For favorite page table*/
+#fav-table {
+    width: 40%;
+    top: 30%;
+    position: fixed;
+    left: 7%;
+    line-height: 1.4;
+}
+
+/*For delete row in favorite page*/
+#no-of-fav {
+    top: 39%;
+    position: fixed;
+    left: 7%;
+}
+/* For Name row table*/
+#title-row {
+    color: #6d7075;
+    width: 65%;
+    top: 20%;
+    position: fixed;
+    left: 7%;
+    line-height: 1.4;
+}
+/*For Admin page edit table */
+#edit-movie-table {
+    color: #6d7075;
+    width: 45%;
+    top: 27%;
+    position: fixed;
+    left: 7%;
+    line-height: 1.4;
+}
+/*For favorite page table*/
+#fav-table {
+    width: 38%;
+    top: 25%;
+    position: fixed;
+    left: 7%;
+    line-height: 1.4;
+}
+/*For Admin page edit link*/
+#edit {
+    color: #1c1b1b;
+}
+/*For favorite page delete link*/
+#delete {
+    color: #1c1b1b;
+}
+/*For Admin page dimension,rows,heading*/
+th {
+    font-family: sans-serif;
+    font-size: 120%;
+}
+
+tr {
+    font-family: sans-serif;
+    font-size: 90%;
+}
+
+td {
+    font-family: sans-serif;
+    font-size: 120%;
+}
+/*For Save button*/
+#save {
+    background-color: #3868b5;
+    font-size: 80%;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    width: 50%;
+}
+/*For Admin footer page*/
+footer {
+    font-family: sans-serif;
+    background-color: #b0aeae;
+    bottom: 0%;
+    width: 100%;
+    height: 5%;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+}
+.copyrights {
+    margin-left: 0.5%;
+    margin-top: 0.9%;
+    position: fixed;
+}
