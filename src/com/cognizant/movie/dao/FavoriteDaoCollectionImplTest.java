@@ -23,7 +23,7 @@ public class FavoriteDaoCollectionImplTest {
 
     public static void testGetAllFavorites() {
         try {
-            System.out.println("Retrieving all the items from Favorite");
+            System.out.println("Retrieving all the Movies from Favorite");
             List<Movie> list = favoriteDao.getAllFavorites(1).getFavoriteList();
             System.out.printf("%-10s%-20s%-13s%-11s%-20s%-16s%s\n", "MovieId", "Title", "BoxOffice",
                     "Active", "DateOfLaunch", "Genre", "HasTeaser");
