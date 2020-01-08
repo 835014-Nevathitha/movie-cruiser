@@ -1,5 +1,6 @@
 package com.cognizant.movie.model;
 
+import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -87,9 +88,10 @@ public class Movie {
     @Override
     public String toString() {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-        return String.format("%-10s%-20s%-14s%-10s%-17s%-21s%s", movieId, title, boxOffice,
-                active == true ? "Yes" : "No", sdf.format(dateOfLaunch), genre,
-                hasTeaser == true ? "Yes" : "No");
+        DecimalFormat decimalFormat = new DecimalFormat();
+        return String.format("%-10s%-20s$%-20s%-10s%-16s%-23s%s", movieId, title,
+                decimalFormat.format(boxOffice), active == true ? "Yes" : "No",
+                sdf.format(dateOfLaunch), genre, hasTeaser == true ? "Yes" : "No");
     }
 
 }
