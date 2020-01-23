@@ -15,7 +15,7 @@
     <nav> <a href="ShowMovieListAdmin">Movies</a> </nav>
     <p id="edit-title">Edit Movie</p>
   
-    <form name="movieForm" action="EditMovie" method="post" onsubmit="return validateMovieForm()">
+    <form name="movieForm" action="EditMovie" method="post"  onsubmit="return validateMovieForm()">
        
        
         <input type="hidden" name="movieId" value="${movie.getMovieId()}" />
