@@ -14,10 +14,10 @@
     <header> Movie Cruiser <img src="images\logo.png" height="40" width="40"> </header>
     <nav> <a href="ShowMovieListAdmin">Movies</a> </nav>
     <p id="edit-title">Edit Movie</p>
-  
-    <form name="movieForm" action="EditMovie" method="post"  onsubmit="return validateMovieForm()">
-       
-       
+
+    <form name="movieForm" action="EditMovie" method="post" onsubmit="return validateMovieForm()">
+
+
         <input type="hidden" name="movieId" value="${movie.getMovieId()}" />
         <table id="title-row">
             <tr>
@@ -40,9 +40,8 @@
                     value="${movie.getBoxOffice()}" /></td>
                 <c:choose>
                     <c:when test="${movie.isActive()==true }">
-                        <td><input type="radio" name="active" value="Yes" id="active"
-                            checked>Yes <input type="radio" name="active"
-                            value="No">No</td>
+                        <td><input type="radio" name="active" value="Yes" id="active" checked>Yes
+                            <input type="radio" name="active" value="No">No</td>
                     </c:when>
                     <c:otherwise>
                         <td><input type="radio" name="active" value="Yes" id="active">Yes
